@@ -1,0 +1,39 @@
+{
+  "name": "buble-jest-flow",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "Custom jest transformer to remove flow type annotations using buble",
+  "author": "Abhisek Pattnaik <abhisekp@lecturenotes.in> (https://about.me/abhisekp)",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "jest",
+    "flow",
+    "transform",
+    "transformer",
+    "flowtype",
+    "types",
+    "buble",
+    "test"
+  ],
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "./index.js"
+    }
+  },
+  "peerDependencies": {
+    "buble-jest": "^1.0.1"
+  },
+  "dependencies": {
+    "flow-remove-types": "^1.2.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.5",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "13.0.0",
+    "eslint-plugin-import": "^2.12.0",
+    "jest": "^23.2.0"
+  }
+}
