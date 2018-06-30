@@ -1,6 +1,6 @@
 # buble-jest-flow
 
-[![Build Status](https://travis-ci.org/abhisekp/buble-jest-flow.svg?branch=master)](https://travis-ci.org/abhisekp/buble-jest-flow)
+[![Build Status](https://travis-ci.org/abhisekp/buble-jest-flow.svg?branch=master)](https://travis-ci.org/abhisekp/buble-jest-flow) [![Greenkeeper badge](https://badges.greenkeeper.io/abhisekp/buble-jest-flow.svg)](https://greenkeeper.io/)
 
 Custom jest transformer to remove flow type annotations using buble
 
