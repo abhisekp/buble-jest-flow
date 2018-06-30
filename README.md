@@ -1,5 +1,7 @@
 # buble-jest-flow
 
+[![Build Status](https://travis-ci.org/abhisekp/buble-jest-flow.svg?branch=master)](https://travis-ci.org/abhisekp/buble-jest-flow)
+
 Custom jest transformer to remove flow type annotations using buble
 
 # Install
