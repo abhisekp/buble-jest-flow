@@ -19,6 +19,9 @@
     "test"
   ],
   "jest": {
+    "verbose": true,
+    "collectCoverage": true,
+    "notify": true,
     "transform": {
       "^.+\\.jsx?$": "./index.js"
     }
@@ -27,6 +30,8 @@
     "buble-jest": "^1.0.1"
   },
   "dependencies": {
+    "buble": "*",
+    "buble-jest": "^1.0.1",
     "flow-remove-types": "^1.2.3"
   },
   "devDependencies": {
