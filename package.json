@@ -1,6 +1,6 @@
 {
   "name": "buble-jest-flow",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Custom jest transformer to remove flow type annotations using buble",
   "author": "Abhisek Pattnaik <abhisekp@lecturenotes.in> (https://about.me/abhisekp)",
   "license": "MIT",
