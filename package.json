@@ -8,6 +8,14 @@
   "scripts": {
     "test": "jest"
   },
+  "bugs": {
+    "url": "https://github.com/abhisekp/buble-jest-flow/issues"
+  },
+  "homepage": "https://github.com/abhisekp/buble-jest-flow",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abhisekp/buble-jest-flow.git"
+  },
   "keywords": [
     "jest",
     "flow",
@@ -25,6 +33,9 @@
     "transform": {
       "^.+\\.jsx?$": "./index.js"
     }
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "peerDependencies": {
     "buble-jest": "^1.0.1"
