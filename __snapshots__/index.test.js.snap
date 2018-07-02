@@ -1,18 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[` 1`] = `
-"\\"use strict\\";
-
-!function(num) { return 0; };"
-`;
-
 exports[`buble jest remove flow types 1`] = `
-"\\"use strict\\";
-
-!function(num) { return 0; };"
-`;
-
-exports[`flow types 1`] = `
 "\\"use strict\\";
 
 !function(num) { return 0; };"
