@@ -1,6 +1,6 @@
 # buble-jest-flow
 
-[![Build Status](https://travis-ci.org/abhisekp/buble-jest-flow.svg?branch=master)](https://travis-ci.org/abhisekp/buble-jest-flow)
+[![Build Status](https://travis-ci.org/abhisekp/buble-jest-flow.svg?branch=master)](https://travis-ci.org/abhisekp/buble-jest-flow) [![npm](https://img.shields.io/npm/v/npm.svg?style=flat-square)](https://www.npmjs.com/package/buble-jest-flow)
 
 Custom jest transformer to remove flow type annotations using buble
 
