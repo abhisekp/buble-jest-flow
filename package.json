@@ -6,7 +6,9 @@
   "author": "Abhisek Pattnaik <abhisekp@lecturenotes.in> (https://about.me/abhisekp)",
   "license": "MIT",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "coveralls": "coveralls < coverage/lcov.info",
+    "codecov": "codecov -f coverage/lcov.info"
   },
   "bugs": {
     "url": "https://github.com/abhisekp/buble-jest-flow/issues"
@@ -50,6 +52,7 @@
     "eslint": "^4.19.1",
     "eslint-config-airbnb-base": "13.0.0",
     "eslint-plugin-import": "^2.12.0",
+    "flow-bin": "^0.75.0",
     "jest": "^23.2.0",
     "npmignore": "^0.2.0"
   }
