@@ -1,8 +1,9 @@
 {
   "root": true,
-  "extends": "airbnb-base",
+  "extends": ["plugin:jest/recommended", "airbnb-base"],
   "env": {
     "jest": true
   },
+  "plugins": ["jest"],
   "parser": "babel-eslint"
 }
